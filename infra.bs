@@ -180,6 +180,26 @@ behavior; otherwise null.
 Variables must not be declared more than once per algorithm.
 
 
+<h3 id=algorithm-conditionals>Conditionals</h3>
+
+<p>Conditionals use "if …, then"; "otherwise, if …, then"; and "otherwise".
+
+<div class=example id=example-confitionals
+ <ol>
+  <li><p>If <var>value</var> is a <a>string</a>, then display <var>value</var>.
+    Otherwise, if [conditions], then [actions].
+    Otherwise, [actions].
+
+Or:
+
+    If [conditions], then:
+        …
+    Otherwise, if [conditions], then:
+        …
+    Otherwise:
+        …
+</div>
+
 <h3 id=algorithm-control-flow>Control flow</h3>
 
 <p>The control flow of algorithms is such that a requirement to "return" or "throw" terminates the
